@@ -1,0 +1,25 @@
+{
+  "name": "node_server",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "serve": "webpack-dev-server --open --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Me",
+  "license": "ISC",
+  "description": "Programele",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.8.0",
+    "node-cache": "^5.1.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.96.1"
+  }
+}
